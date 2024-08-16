@@ -32,11 +32,11 @@
                 <img src="" alt="" class="main__img">
             </div>
         </section>
+        <div class="main__divider">Projects</div>
         <section class="main__projects">
-            <div class="main__divider">Projects</div>
             <ul class="projects__cards">
                 <li class="projects__card">
-                    <button class="project__button"></button>
+                    <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;""></i></button>
                 </li>
                 <li class="projects__card"></li>
                 <li class="projects__card"></li>
