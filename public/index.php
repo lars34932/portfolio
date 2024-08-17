@@ -36,16 +36,48 @@
         <section class="main__projects">
             <ul class="projects__cards">
                 <li class="projects__card">
-                    <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;""></i></button>
+                    <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
                 </li>
-                <li class="projects__card"></li>
-                <li class="projects__card"></li>
-                <li class="projects__card"></li>
+                <li class="projects__card">
+                    <button class="project__button">Project 2  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+                </li>
+                <li class="projects__card">
+                    <button class="project__button">Project 3  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+                </li>
+                <li class="projects__card">
+                    <button class="project__button">Project 4  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+                </li>
             </ul>
         </section>
+        <div class="main__divider">about me</div>
+        <section class="main__about">
+            <h2 class="about__title">Test</h2>
+            <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eos sit dicta, ullam asperiores labore illo aperiam, quasi animi magnam omnis. Sunt asperiores libero quibusdam, ullam maiores minima omnis reprehenderit.
+            In quam quis incidunt libero aperiam culpa sunt perferendis officia neque excepturi possimus reprehenderit, rem ab aliquam eaque labore at nisi, quia magnam accusantium. Facere dignissimos similique vitae quis laboriosam?</p>
+        </section>
+        <div class="main__divider">contact</div>
     </main>
     <footer class="footer">
-
+        <section class="footer__contact">
+            <div class="contact__div contact__div1">
+                <div class="contacts">
+                    <i class="fa-regular fa-envelope contacts__icon"></i>
+                    <p class="contacts__text">34932@ma-web.nl</p>
+                </div>
+                <div class="contacts">
+                    <i class="fa-solid fa-phone contacts__icon"></i>
+                    <p class="contacts__text">+31 6 00000000</p>
+                </div>
+            </div>
+            <div class="contact__div contact__div2">
+                <a class="contact__icon"><i class="fa-brands fa-github"></i></a>
+                <a class="contact__icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </section>
+        <section class="footer__copyright">
+            <img class="footer__img" src="assets/img/logo.webp" alt="">
+            <p class="footer__text">&copy; <?php echo date("Y");?> All Rights Reserved by Lars Swagerman.</p>
+        </section>
     </footer>
 </body>
 </html>

@@ -11,10 +11,12 @@ html {
 }
 
 body{
-    background: black;
+    background-image: url("/assets/img/verloop.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
     font-family: "fieldwork", sans-serif;
     color: white;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 10rem;
@@ -22,7 +24,7 @@ body{
 
 .header{
     width: calc(100% - 30rem);
-    height: 10%;
+    height: 9rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,8 +32,7 @@ body{
 }
 
 .header__logo{
-    height: 10rem;
-    width: 10rem;
+    height: 100%;
 }
 
 .header__div{
@@ -48,6 +49,25 @@ body{
     text-decoration: none;
     font-weight: 400;
     text-transform: uppercase;
+    position: relative;
+}
+
+.header__link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(120,162,45,1) 25%, rgba(30,120,61,1) 100%);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+.header__link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .main{
@@ -144,4 +164,107 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 1.5rem;
+}
+
+.main__about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 2rem;
+}
+
+.about__title{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.about__text{
+    font-size: 1.5rem;
+    font-family: ronnia-condensed, sans-serif;
+    font-weight: 300;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.footer__contact{
+    margin: 0 15rem;
+    display: flex;
+    width: calc(100% - 30rem);
+}
+
+.contact__div{
+    width: 50%;
+}
+
+.contact__div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2.5rem;
+    font-family: ronnia-condensed, sans-serif;
+    width: 22rem;
+}
+
+.contacts__icon{
+    color: #78A22D;
+    background: #0c0c0c;
+    border-radius: 50%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts__text{
+    font-size: 2rem;
+}
+
+.contact__div2{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contact__icon{
+    font-size: 2.5rem;
+    color: white;
+    background: #78A22D;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__copyright{
+    padding: 2rem;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #0c0c0c;
+}
+
+.footer__img{
+    height: 9rem;
+    width: 9rem;
+}
+
+.footer__text{
+    font-size: 2.5rem;
+    font-family: ronnia-condensed, sans-serif;
 }
