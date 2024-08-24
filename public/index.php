@@ -1,3 +1,7 @@
+<?php
+require_once("assets/php/header.php");
+require_once("assets/php/footer.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,17 +11,11 @@
     <link rel="stylesheet" href="https://use.typekit.net/vmz6jnb.css">
     <link rel="stylesheet" href="https://use.typekit.net/vmz6jnb.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-index.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="header">
-        <img src="assets/img/logo.webp" alt="" class="header__logo">
-        <div class="header__div">
-            <a href="" class="header__link">projects</a>
-            <a href="" class="header__link">about me</a>
-            <a href="" class="header__link">contact</a>
-        </div>
-    </header>
+    <?php makeHeader()?>
     <main class="main">
         <section class="main__intro">
             <div class="main__div main__div1">
@@ -36,48 +34,80 @@
         <section class="main__projects">
             <ul class="projects__cards">
                 <li class="projects__card">
+                    <ul class="card__tags">
+                        <li class="tags__tag php">php</li>
+                        <li class="tags__tag css">css</li>
+                        <li class="tags__tag js">js</li>
+                        <li class="tags__tag sql">sql</li>
+                        <li class="tags__tag python">python</li>
+                        <li class="tags__tag wordpress">wordpress</li>
+                    </ul>
+                    <div class="card__div">
+                        <img class="card__img" src="assets/img/test.png" alt="">
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
+                    </div>
                     <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
                 </li>
                 <li class="projects__card">
-                    <button class="project__button">Project 2  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+                    <ul class="card__tags">
+                        <li class="tags__tag php">php</li>
+                        <li class="tags__tag css">css</li>
+                        <li class="tags__tag js">js</li>
+                        <li class="tags__tag sql">sql</li>
+                        <li class="tags__tag python">python</li>
+                        <li class="tags__tag wordpress">wordpress</li>
+                    </ul>
+                    <div class="card__div">
+                        <img class="card__img" src="assets/img/test.png" alt="">
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
+                    </div>
+                    <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
                 </li>
                 <li class="projects__card">
-                    <button class="project__button">Project 3  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+                    <ul class="card__tags">
+                        <li class="tags__tag php">php</li>
+                        <li class="tags__tag css">css</li>
+                        <li class="tags__tag js">js</li>
+                        <li class="tags__tag sql">sql</li>
+                        <li class="tags__tag python">python</li>
+                        <li class="tags__tag wordpress">wordpress</li>
+                    </ul>
+                    <div class="card__div">
+                        <img class="card__img" src="assets/img/test.png" alt="">
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
+                    </div>
+                    <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
                 </li>
                 <li class="projects__card">
-                    <button class="project__button">Project 4  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+                    <ul class="card__tags">
+                        <li class="tags__tag php">php</li>
+                        <li class="tags__tag css">css</li>
+                        <li class="tags__tag js">js</li>
+                        <li class="tags__tag sql">sql</li>
+                        <li class="tags__tag python">python</li>
+                        <li class="tags__tag wordpress">wordpress</li>
+                    </ul>
+                    <div class="card__div">
+                        <img class="card__img" src="assets/img/test.png" alt="">
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
+                    </div>
+                    <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
                 </li>
             </ul>
+            <div class="projects__div">
+                <p class="projects__text">Click here for more projects:</p>
+                <button class="projects__button">More projects  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+            </div>
         </section>
         <div class="main__divider">about me</div>
         <section class="main__about">
             <h2 class="about__title">Test</h2>
             <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eos sit dicta, ullam asperiores labore illo aperiam, quasi animi magnam omnis. Sunt asperiores libero quibusdam, ullam maiores minima omnis reprehenderit.
             In quam quis incidunt libero aperiam culpa sunt perferendis officia neque excepturi possimus reprehenderit, rem ab aliquam eaque labore at nisi, quia magnam accusantium. Facere dignissimos similique vitae quis laboriosam?</p>
+            <button class="about__button">Read more  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
         </section>
         <div class="main__divider">contact</div>
     </main>
-    <footer class="footer">
-        <section class="footer__contact">
-            <div class="contact__div contact__div1">
-                <div class="contacts">
-                    <i class="fa-regular fa-envelope contacts__icon"></i>
-                    <p class="contacts__text">34932@ma-web.nl</p>
-                </div>
-                <div class="contacts">
-                    <i class="fa-solid fa-phone contacts__icon"></i>
-                    <p class="contacts__text">+31 6 00000000</p>
-                </div>
-            </div>
-            <div class="contact__div contact__div2">
-                <a class="contact__icon"><i class="fa-brands fa-github"></i></a>
-                <a class="contact__icon"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-        </section>
-        <section class="footer__copyright">
-            <img class="footer__img" src="assets/img/logo.webp" alt="">
-            <p class="footer__text">&copy; <?php echo date("Y");?> All Rights Reserved by Lars Swagerman.</p>
-        </section>
-    </footer>
+    <?php makeFooter()?>
 </body>
 </html>

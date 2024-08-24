@@ -40,7 +40,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 12.5%;
+    gap: 10%;
 }
 
 .header__link{
@@ -68,127 +68,6 @@ body{
 .header__link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-}
-
-.main{
-    height: 50%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 10rem;
-}
-
-.main__intro{
-    margin: 0 15rem;
-    display: flex;
-    width: calc(100% - 30rem);
-}
-
-.main__div{
-    width: 50%;
-}
-
-.main__div1{
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    padding: 0 15% 0 0;
-}
-
-.main__title{
-    font-size: 3rem;
-    font-weight: 400;
-}
-
-.main__text{
-    font-size: 1.5rem;
-    font-family: ronnia-condensed, sans-serif;
-    font-weight: 300;
-}
-
-.main__button{
-    width: 15rem;
-    height: 4rem;
-    border: 1px solid white;
-    background: transparent;
-    color: white;
-    font-size: 1.5rem;
-    font-family: ronnia-condensed, sans-serif;
-    font-weight: 300;
-    
-}
-
-.main__button:hover{
-    cursor: pointer;
-    background: linear-gradient(90deg, rgba(120,162,45,1) 25%, rgba(30,120,61,1) 100%);
-}
-
-.main__divider{
-    font-size: 3rem;
-    border-top: solid 1px #78A22D;
-    border-bottom: solid 1px #78A22D;
-    padding: 2rem;
-    text-align: center;
-    text-transform: uppercase;
-    width: 95%;
-}
-
-.main__projects{
-    margin: 0 15rem;
-    width: calc(100% - 30rem);
-}
-
-.projects__cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10rem;
-}
-
-.projects__card{
-    width: 60rem;
-    height: 60rem;
-    background: #78A22D;
-    list-style: none;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 3rem;
-}
-
-.project__button{
-    width: 15rem;
-    height: 4rem;
-    border: 1px solid white;
-    background: transparent;
-    color: white;
-    font-size: 1.5rem;
-    font-family: ronnia-condensed, sans-serif;
-    font-weight: 300;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1.5rem;
-}
-
-.main__about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    gap: 2rem;
-}
-
-.about__title{
-    font-size: 3rem;
-    font-weight: 400;
-}
-
-.about__text{
-    font-size: 1.5rem;
-    font-family: ronnia-condensed, sans-serif;
-    font-weight: 300;
 }
 
 .footer{
