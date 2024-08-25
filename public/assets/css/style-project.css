@@ -1,0 +1,135 @@
+.filter{
+    display: flex;
+    gap: 1rem;
+}
+
+.filter__text{
+    font-size: 2.5rem;
+}
+
+.main__projects{
+    margin: 0 15rem;
+    width: calc(100% - 30rem);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+}
+
+.projects__card{
+    width: 60rem;
+    height: 60rem;
+    background: #78A22D;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.card__tags{
+    display: flex;
+    gap: 1rem;
+}
+
+.tags__tag{
+    list-style: none;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    min-width: 3rem;
+    text-align: center;
+}
+
+.php{
+    background: #4F5B93;
+}
+
+.css{
+    background: #156aa6;
+}
+
+.js{
+    background: #f7df1e;
+}
+
+.sql{
+    background: #F29111;
+}
+
+.python{
+    background: #4B8BBE;
+}
+
+.wordpress{
+    background: #444140;
+}
+
+.card__div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card__img{
+    width: 100%;
+}
+
+.card__text{
+    width: 75%;
+    font-size: 1.25rem
+}
+
+.project__button{
+    width: 15rem;
+    height: 4rem;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+    font-family: ronnia-condensed, sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.projects__div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.projects__text{
+    font-size: 2rem;
+}
+
+.projects__button{
+    width: 15rem;
+    height: 4rem;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+    font-family: ronnia-condensed, sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.projects__button:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(120,162,45,1) 25%, rgba(30,120,61,1) 100%);
+}
