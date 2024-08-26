@@ -35,6 +35,17 @@
     padding: 3rem;
 }
 
+.title__div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__title{
+    font-size: 2rem;
+    font-family: ronnia-condensed, sans-serif;
+}
+
 .card__tags{
     display: flex;
     gap: 1rem;
@@ -47,6 +58,7 @@
     border-radius: 1rem;
     min-width: 3rem;
     text-align: center;
+    height: 2rem;
 }
 
 .php{
@@ -132,4 +144,9 @@
 .projects__button:hover{
     cursor: pointer;
     background: linear-gradient(90deg, rgba(120,162,45,1) 25%, rgba(30,120,61,1) 100%);
+}
+
+.list__item{
+    display: flex;
+    align-items: center;
 }

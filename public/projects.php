@@ -21,21 +21,44 @@ require_once("assets/php/footer.php");
             <p class="filter__text">filter ></p>
             <ul class="filter__list">
                 <li class="list__item">
-                    <label for="php">php</label>
                     <input type="checkbox" id="php" name="php">
+                    <label for="php">php</label>
+                </li>
+                <li class="list__item">
+                    <input type="checkbox" id="css" name="css">
+                    <label for="css">css</label>
+                </li>
+                <li class="list__item">
+                    <input type="checkbox" id="js" name="js">
+                    <label for="js">js</label>
+                </li>
+                <li class="list__item">
+                    <input type="checkbox" id="sql" name="sql">
+                    <label for="sql">sql</label>
+                </li>
+                <li class="list__item">
+                    <input type="checkbox" id="python" name="python">
+                    <label for="python">python</label>
+                </li>
+                <li class="list__item">
+                    <input type="checkbox" id="wordpress" name="wordpress">
+                    <label for="wordpress">wordpress</label>
                 </li>
             </ul>
         </div>
         <ul class="projects">
                 <li class="projects__card">
-                    <ul class="card__tags">
-                        <li class="tags__tag php">php</li>
-                        <li class="tags__tag css">css</li>
-                        <li class="tags__tag js">js</li>
-                        <li class="tags__tag sql">sql</li>
-                        <li class="tags__tag python">python</li>
-                        <li class="tags__tag wordpress">wordpress</li>
-                    </ul>
+                    <div class="title__div">
+                        <h2 class="card__title">Project name</h2>
+                        <ul class="card__tags">
+                            <li class="tags__tag php">php</li>
+                            <li class="tags__tag css">css</li>
+                            <li class="tags__tag js">js</li>
+                            <li class="tags__tag sql">sql</li>
+                            <li class="tags__tag python">python</li>
+                            <li class="tags__tag wordpress">wordpress</li>
+                        </ul>
+                    </div>
                     <div class="card__div">
                         <img class="card__img" src="assets/img/test.png" alt="">
                         <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
@@ -43,14 +66,17 @@ require_once("assets/php/footer.php");
                     <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
                 </li>
                 <li class="projects__card">
-                    <ul class="card__tags">
-                        <li class="tags__tag php">php</li>
-                        <li class="tags__tag css">css</li>
-                        <li class="tags__tag js">js</li>
-                        <li class="tags__tag sql">sql</li>
-                        <li class="tags__tag python">python</li>
-                        <li class="tags__tag wordpress">wordpress</li>
-                    </ul>
+                    <div class="title__div">
+                        <h2 class="card__title">Project name</h2>
+                        <ul class="card__tags">
+                            <li class="tags__tag php">php</li>
+                            <li class="tags__tag css">css</li>
+                            <li class="tags__tag js">js</li>
+                            <li class="tags__tag sql">sql</li>
+                            <li class="tags__tag python">python</li>
+                            <li class="tags__tag wordpress">wordpress</li>
+                        </ul>
+                    </div>
                     <div class="card__div">
                         <img class="card__img" src="assets/img/test.png" alt="">
                         <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
@@ -58,14 +84,17 @@ require_once("assets/php/footer.php");
                     <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
                 </li>
                 <li class="projects__card">
-                    <ul class="card__tags">
-                        <li class="tags__tag php">php</li>
-                        <li class="tags__tag css">css</li>
-                        <li class="tags__tag js">js</li>
-                        <li class="tags__tag sql">sql</li>
-                        <li class="tags__tag python">python</li>
-                        <li class="tags__tag wordpress">wordpress</li>
-                    </ul>
+                    <div class="title__div">
+                        <h2 class="card__title">Project name</h2>
+                        <ul class="card__tags">
+                            <li class="tags__tag php">php</li>
+                            <li class="tags__tag css">css</li>
+                            <li class="tags__tag js">js</li>
+                            <li class="tags__tag sql">sql</li>
+                            <li class="tags__tag python">python</li>
+                            <li class="tags__tag wordpress">wordpress</li>
+                        </ul>
+                    </div>
                     <div class="card__div">
                         <img class="card__img" src="assets/img/test.png" alt="">
                         <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
@@ -73,14 +102,17 @@ require_once("assets/php/footer.php");
                     <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
                 </li>
                 <li class="projects__card">
-                    <ul class="card__tags">
-                        <li class="tags__tag php">php</li>
-                        <li class="tags__tag css">css</li>
-                        <li class="tags__tag js">js</li>
-                        <li class="tags__tag sql">sql</li>
-                        <li class="tags__tag python">python</li>
-                        <li class="tags__tag wordpress">wordpress</li>
-                    </ul>
+                    <div class="title__div">
+                        <h2 class="card__title">Project name</h2>
+                        <ul class="card__tags">
+                            <li class="tags__tag php">php</li>
+                            <li class="tags__tag css">css</li>
+                            <li class="tags__tag js">js</li>
+                            <li class="tags__tag sql">sql</li>
+                            <li class="tags__tag python">python</li>
+                            <li class="tags__tag wordpress">wordpress</li>
+                        </ul>
+                    </div>
                     <div class="card__div">
                         <img class="card__img" src="assets/img/test.png" alt="">
                         <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>

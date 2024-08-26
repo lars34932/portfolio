@@ -89,6 +89,17 @@
     padding: 3rem;
 }
 
+.title__div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__title{
+    font-size: 2rem;
+    font-family: ronnia-condensed, sans-serif;
+}
+
 .card__tags{
     display: flex;
     gap: 1rem;
@@ -101,6 +112,7 @@
     border-radius: 1rem;
     min-width: 3rem;
     text-align: center;
+    height: 2rem;
 }
 
 .php{
