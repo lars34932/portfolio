@@ -19,7 +19,7 @@ function makeFooter() {
         </section>
         <section class="footer__copyright">
             <img class="footer__img" src="assets/img/logo.webp" alt="">
-            <p class="footer__text">&copy; <?php echo date("Y");?> All Rights Reserved by Lars Swagerman.</p>
+            <p class="footer__text">&copy; ' . date("Y") . ' All Rights Reserved by Lars Swagerman.</p>
         </section>
     </footer>';
 }

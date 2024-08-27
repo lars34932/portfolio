@@ -148,7 +148,16 @@
     background: linear-gradient(90deg, rgba(120,162,45,1) 25%, rgba(30,120,61,1) 100%);
 }
 
-.list__item{
+.filter__button{
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border: solid white 1px;
+    color: white;
+    background: transparent;
+}
+
+.filter__button:hover{
+    cursor: pointer;
 }
