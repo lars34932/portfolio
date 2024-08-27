@@ -1,6 +1,7 @@
 <?php
 require_once("assets/php/header.php");
 require_once("assets/php/footer.php");
+require_once("assets/php/project.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,7 +48,7 @@ require_once("assets/php/footer.php");
             </ul>
         </div>
         <ul class="projects">
-                <li class="projects__card">
+                <!-- <li class="projects__card">
                     <div class="title__div">
                         <h2 class="card__title">Project name</h2>
                         <ul class="card__tags">
@@ -118,9 +119,9 @@ require_once("assets/php/footer.php");
                         <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
                     </div>
                     <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
-                </li>
+                </li> -->
                 <?php 
-                
+                    makeCards();
                 ?>
             </ul>
     </main>
