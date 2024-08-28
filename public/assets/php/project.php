@@ -8,28 +8,32 @@ function makeCards() {
     $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     foreach ($projects as $project) {
-        echo '<li class="projects__card">
+        $tags = [
+            'phpTag' => 'php',
+            'cssTag' => 'css',
+            'jsTag' => 'js',
+            'sqlTag' => 'sql',
+            'pythonTag' => 'python',
+            'wordpressTag' => 'wordpress'
+        ];
+
+        $classes = [];
+        foreach ($tags as $key => $class) {
+            if (!empty($project[$key])) {
+                $classes[] = $class . "__project";
+            }
+        }
+
+        $classesString = implode(' ', $classes);
+
+        echo '<li class="projects__card ' . $classesString . '">
                 <div class="title__div">
                     <h2 class="card__title">' . $project['name'] . '</h2>
                     <ul class="card__tags">';
-
-        if ($project["phpTag"]) {
-            echo '<li class="tags__tag php">php</li>';
-        }
-        if ($project["cssTag"]) {
-            echo '<li class="tags__tag css">css</li>';
-        }
-        if ($project["jsTag"]) {
-            echo '<li class="tags__tag js">js</li>';
-        }
-        if ($project["sqlTag"]) {
-            echo '<li class="tags__tag sql">sql</li>';
-        }
-        if ($project["pythonTag"]) {
-            echo '<li class="tags__tag python">python</li>';
-        }
-        if ($project["wordpressTag"]) {
-            echo '<li class="tags__tag wordpress">wordpress</li>';
+        foreach ($tags as $key => $class) {
+            if (!empty($project[$key])) {
+                echo '<li class="tags__tag ' . $class . '">' . $class . '</li>';
+            }
         }
 
         echo '  </ul>
