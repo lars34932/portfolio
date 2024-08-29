@@ -13,7 +13,8 @@ require_once("assets/php/project.php");
     <link rel="stylesheet" href="https://use.typekit.net/vmz6jnb.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style-project.css">
-    <title>Portfolio</title>
+    <script src="assets/js/filter.js" defer></script>
+    <title>Projects</title>
 </head>
 <body>
     <?php makeHeader()?>
