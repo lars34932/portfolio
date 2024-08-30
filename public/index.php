@@ -11,7 +11,7 @@ require_once("assets/php/footer.php");
     <link rel="stylesheet" href="https://use.typekit.net/vmz6jnb.css">
     <link rel="stylesheet" href="https://use.typekit.net/vmz6jnb.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style-index.css">
+    <link rel="stylesheet" href="assets/css/style-page.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -108,7 +108,7 @@ require_once("assets/php/footer.php");
             </ul>
             <div class="projects__div">
                 <p class="projects__text">Click here for more projects:</p>
-                <button class="projects__button">More projects  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+                <a class="projects__link" href="projects.php"><button class="projects__button">More projects  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
             </div>
         </section>
         <div class="main__divider">about me</div>

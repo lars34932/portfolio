@@ -180,6 +180,10 @@
     font-size: 2rem;
 }
 
+.projects__link{
+    text-decoration: none;
+}
+
 .projects__button{
     width: 15rem;
     height: 4rem;

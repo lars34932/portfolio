@@ -103,6 +103,10 @@
     font-size: 1.25rem
 }
 
+.card__link{
+    text-decoration: none;
+}
+
 .project__button{
     width: 15rem;
     height: 4rem;
