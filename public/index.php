@@ -46,9 +46,8 @@ require_once("assets/php/project.php");
             <h2 class="about__title">Test</h2>
             <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eos sit dicta, ullam asperiores labore illo aperiam, quasi animi magnam omnis. Sunt asperiores libero quibusdam, ullam maiores minima omnis reprehenderit.
             In quam quis incidunt libero aperiam culpa sunt perferendis officia neque excepturi possimus reprehenderit, rem ab aliquam eaque labore at nisi, quia magnam accusantium. Facere dignissimos similique vitae quis laboriosam?</p>
-            <button class="about__button">Read more  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+            <a class="contact__link" href="about.php"><button class="about__button">Read more  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
         </section>
-        <div class="main__divider">contact</div>
     </main>
     <?php makeFooter()?>
 </body>

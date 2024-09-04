@@ -1,6 +1,8 @@
 <?php
 function makeFooter() {
-    echo '<footer class="footer">
+    echo '
+    <footer class="footer">
+        <div class="main__divider">contact</div>
         <section class="footer__contact">
             <div class="contact__div contact__div1">
                 <div class="contacts">

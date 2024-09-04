@@ -122,6 +122,10 @@
     padding: 0 1.5rem;
 }
 
+.project__button:hover{
+    cursor: pointer;
+}
+
 .projects__div{
     display: flex;
     flex-direction: column;
