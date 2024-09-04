@@ -69,7 +69,7 @@
     gap: 3rem;
 }
 
-.projects__cards{
+.projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -79,7 +79,7 @@
 
 .projects__card{
     width: 60rem;
-    height: 60rem;
+    height: 70rem;
     background: #78A22D;
     list-style: none;
     display: flex;
@@ -148,11 +148,17 @@
 
 .card__img{
     width: 100%;
+    max-height: 45rem;
+    object-fit: cover;
 }
 
 .card__text{
     width: 75%;
     font-size: 1.25rem
+}
+
+.card__link{
+    text-decoration: none;
 }
 
 .project__button{
@@ -180,10 +186,6 @@
     font-size: 2rem;
 }
 
-.projects__link{
-    text-decoration: none;
-}
-
 .projects__button{
     width: 15rem;
     height: 4rem;
@@ -202,6 +204,20 @@
 .projects__button:hover{
     cursor: pointer;
     background: linear-gradient(90deg, rgba(120,162,45,1) 25%, rgba(30,120,61,1) 100%);
+}
+
+.filter__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border: solid white 1px;
+    color: white;
+    background: transparent;
+}
+
+.filter__button:hover{
+    cursor: pointer;
 }
 
 .main__about{

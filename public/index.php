@@ -1,6 +1,7 @@
 <?php
 require_once("assets/php/header.php");
 require_once("assets/php/footer.php");
+require_once("assets/php/project.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +12,7 @@ require_once("assets/php/footer.php");
     <link rel="stylesheet" href="https://use.typekit.net/vmz6jnb.css">
     <link rel="stylesheet" href="https://use.typekit.net/vmz6jnb.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style-page.css">
+    <link rel="stylesheet" href="assets/css/style-index.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -32,79 +33,8 @@ require_once("assets/php/footer.php");
         </section>
         <div class="main__divider">Projects</div>
         <section class="main__projects">
-            <ul class="projects__cards">
-                <li class="projects__card">
-                    <div class="title__div">
-                        <h2 class="card__title">Project name</h2>
-                        <ul class="card__tags">
-                            <li class="tags__tag php">php</li>
-                            <li class="tags__tag css">css</li>
-                            <li class="tags__tag js">js</li>
-                            <li class="tags__tag sql">sql</li>
-                            <li class="tags__tag python">python</li>
-                            <li class="tags__tag wordpress">wordpress</li>
-                        </ul>
-                    </div>
-                    <div class="card__div">
-                        <img class="card__img" src="assets/img/test.png" alt="">
-                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
-                    </div>
-                    <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
-                </li>
-                <li class="projects__card">
-                    <div class="title__div">
-                        <h2 class="card__title">Project name</h2>
-                        <ul class="card__tags">
-                            <li class="tags__tag php">php</li>
-                            <li class="tags__tag css">css</li>
-                            <li class="tags__tag js">js</li>
-                            <li class="tags__tag sql">sql</li>
-                            <li class="tags__tag python">python</li>
-                            <li class="tags__tag wordpress">wordpress</li>
-                        </ul>
-                    </div>
-                    <div class="card__div">
-                        <img class="card__img" src="assets/img/test.png" alt="">
-                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
-                    </div>
-                    <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
-                </li>
-                <li class="projects__card">
-                    <div class="title__div">
-                        <h2 class="card__title">Project name</h2>
-                        <ul class="card__tags">
-                            <li class="tags__tag php">php</li>
-                            <li class="tags__tag css">css</li>
-                            <li class="tags__tag js">js</li>
-                            <li class="tags__tag sql">sql</li>
-                            <li class="tags__tag python">python</li>
-                            <li class="tags__tag wordpress">wordpress</li>
-                        </ul>
-                    </div>
-                    <div class="card__div">
-                        <img class="card__img" src="assets/img/test.png" alt="">
-                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
-                    </div>
-                    <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
-                </li>
-                <li class="projects__card">
-                    <div class="title__div">
-                        <h2 class="card__title">Project name</h2>
-                        <ul class="card__tags">
-                            <li class="tags__tag php">php</li>
-                            <li class="tags__tag css">css</li>
-                            <li class="tags__tag js">js</li>
-                            <li class="tags__tag sql">sql</li>
-                            <li class="tags__tag python">python</li>
-                            <li class="tags__tag wordpress">wordpress</li>
-                        </ul>
-                    </div>
-                    <div class="card__div">
-                        <img class="card__img" src="assets/img/test.png" alt="">
-                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae, voluptatum itaque dolorem adipisci mollitia porro quaerat odit numquam fuga incidunt corporis rerum illum natus consequuntur? Ipsam praesentium vitae magni!</p>
-                    </div>
-                    <button class="project__button">Project 1  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
-                </li>
+            <ul class="projects">
+                <?php makeCards()?>
             </ul>
             <div class="projects__div">
                 <p class="projects__text">Click here for more projects:</p>
