@@ -1,0 +1,15 @@
+.main{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 0 15rem;
+}
+
+.main__img{
+    width: 100%;
+}
+
+.info__title{
+    font-size: 3rem;
+}
