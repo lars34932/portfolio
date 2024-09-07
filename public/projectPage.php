@@ -17,49 +17,50 @@ require_once("/var/www/html/source/connect.php");
 </head>
 <body>
     <?php makeHeader();?>
-    <main class="main">
-        <img class="main__img" src="assets/img/test.png" alt="">
-        <section class="info__section">
-            <div class="info__div">
-                <h1 class="info__title">Titel</h1>
-                <p class="info__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus cupiditate optio illo nisi neque rem qui obcaecati iusto dolorum earum consequuntur inventore aperiam quia fuga, labore vero numquam mollitia cumque?</p>
-                
-            </div>
-            <ul class="info__list">
-                <li class="list__item">
-                    <p class="item__title">test</p>
-                    <p class="item__text">test</p>
-                </li>
-                <li class="list__item">
-                    <p class="item__title">test</p>
-                    <p class="item__text">test</p>
-                </li>
-                <li class="list__item">
-                    <p class="item__title">test</p>
-                    <p class="item__text">test</p>
-                </li>
-                <li class="list__item">
-                    <p class="item__title">test</p>
-                    <p class="item__text">test</p>
-                </li>
-            </ul>
-        </section>
-        <button class="live__button">Live preview</button>
-        <h2 class="about__title">beschrijving</h2>
-        <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sint amet perspiciatis incidunt. Sit eos laborum voluptatum inventore veniam ipsam quibusdam sunt corporis ex reprehenderit temporibus assumenda autem, harum at?</p>
-    </main>
+        
     <?php 
-    // $name = isset($_GET['name']) ? $_GET['name'] : '';
+    $name = isset($_GET['name']) ? $_GET['name'] : '';
 
-    // if (!empty($name)) {
-    //     $pdo = db_connect();
-    //     $stmt = $pdo->prepare('SELECT * FROM Projects WHERE name = ?');
-    //     $stmt->execute([$name]);
-    //     $project = $stmt->fetch(PDO::FETCH_ASSOC);
-    //     echo $project['name'];
-    // } else {
-    //     echo '<p>Project could not be found.</p>';
-    //}
+    if (!empty($name)) {
+       $pdo = db_connect();
+       $stmt = $pdo->prepare('SELECT * FROM Projects WHERE name = ?');
+       $stmt->execute([$name]);
+       $project = $stmt->fetch(PDO::FETCH_ASSOC);
+       echo '
+       <main class="main">
+           <img class="main__img" src="' . $project['image'] .'" alt="">
+           <section class="info__section">
+               <div class="info__div">
+                   <h1 class="info__title">' . $project['name'] . '</h1>
+                   <p class="info__text">' . $project['infoText'] . '</p>
+               </div>
+               <ul class="info__list">
+                   <li class="list__item">
+                       <p class="item__title">categorie</p>
+                       <p class="item__text">' . $project['categoryText'] . '</p>
+                   </li>
+                   <li class="list__item">
+                       <p class="item__title">opdracht gever</p>
+                       <p class="item__text">' . $project['clientText'] . '</p>
+                   </li>
+                   <li class="list__item">
+                       <p class="item__title">datum</p>
+                       <p class="item__text">' . $project['date'] . '</p>
+                   </li>
+                   <li class="list__item">
+                       <p class="item__title">design</p>
+                       <p class="item__text">' . $project['designText'] . '</p>
+                   </li>
+               </ul>
+           </section>
+           <button onclick="location.href = ' . $project['buttonLink'] . '" class="live__button">Live preview<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+           <h2 class="about__title">beschrijving</h2>
+           <p class="about__text">' . $project['bigText'] . '</p>
+       </main>';
+    } else {
+        echo '<p>Project could not be found.</p>';
+    }
+    
     ?>
     <?php makeFooter();?>
 </body>
