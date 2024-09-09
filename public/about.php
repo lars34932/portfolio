@@ -17,7 +17,7 @@ require_once("assets/php/footer.php");
     <?php makeHeader()?>
     <main class="main">
         <h1>Ervaring</h1>
-        <p>Hallo, mijn naam is Lars Swagerman en ik ben <?php echo (new DateTime('2006-08-08'))->diff(new DateTime())->y; ?> jaar oud. Ik heb ervaring in HTML, CSS, JavaScript, PHP, SQL, Python, Laravel en WordPress</p>
+        <p>Hallo, mijn naam is Lars Swagerman en ik ben <?php echo (new DateTime('2006-08-08'))->diff(new DateTime())->y; ?> jaar oud. Ik kan goed omgaan in een teamverband en </p>
         <div class="main__divider">skills</div>
         <section class="skills__lists">
             <ul class="skill__list">
