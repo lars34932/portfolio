@@ -10,11 +10,10 @@ require_once("assets/php/project.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6c294d23a1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/vmz6jnb.css">
-    <link rel="stylesheet" href="https://use.typekit.net/vmz6jnb.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style-project.css">
     <script src="assets/js/filter.js" defer></script>
-    <title>Projects</title>
+    <title>Lars Swagerman</title>
 </head>
 <body>
     <?php makeHeader()?>
