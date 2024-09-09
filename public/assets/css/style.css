@@ -35,6 +35,10 @@ body{
     height: 100%;
 }
 
+.header__logo:hover{
+    cursor: pointer;
+}
+
 .header__div{
     width: 80%;
     display: flex;

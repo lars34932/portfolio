@@ -100,7 +100,8 @@
 
 .card__text{
     width: 75%;
-    font-size: 1.25rem
+    font-size: 1.25rem;
+    font-family: ronnia-condensed, sans-serif;
 }
 
 .card__link{
@@ -134,6 +135,7 @@
 
 .projects__text{
     font-size: 2rem;
+    font-family: ronnia-condensed, sans-serif;
 }
 
 .projects__button{
@@ -164,6 +166,7 @@
     border: solid white 1px;
     color: white;
     background: transparent;
+    font-family: ronnia-condensed, sans-serif;
 }
 
 .filter__button:hover{

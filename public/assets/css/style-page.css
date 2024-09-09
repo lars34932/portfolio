@@ -18,6 +18,8 @@
 
 .info__text{
     width: 75%;
+    font-size: 1.7rem;
+    font-family: ronnia-condensed, sans-serif;
 }
 
 .info__section{
@@ -33,6 +35,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.info__title{
+    text-transform: uppercase;
 }
 
 .info__list {
@@ -52,6 +58,14 @@
     width: 48%;
     font-size: 1.7rem;
     gap: 0.5rem;
+}
+
+.item__title{
+    text-transform: uppercase;
+}
+
+.item__text{
+    font-family: ronnia-condensed, sans-serif;
 }
 
 .item__title{
@@ -80,4 +94,10 @@
 
 .about__title{
     font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.about__text{
+    font-size: 1.7rem;
+    font-family: ronnia-condensed, sans-serif;
 }

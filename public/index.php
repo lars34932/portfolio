@@ -24,7 +24,7 @@ require_once("assets/php/project.php");
                 <h1 class="main__title">Backend developer +</h1>
                 <h1 class="main__title">Web developer</h1>
                 </div>
-                <p class="main__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit unde doloribus voluptatibus dignissimos accusantium rerum rem. Est itaque eligendi officia quos voluptatem incidunt eveniet reiciendis mollitia, praesentium quam repellat?</p>
+                <p class="main__text">Hallo, mijn naam is Lars Swagerman en ik ben <?php echo (new DateTime('2006-08-08'))->diff(new DateTime())->y;?> jaar oud. Op dit moment volg ik de opleiding Software Development aan het Mediacollege Amsterdam. Ik hou van problemen oplossen en mijn interesse ligt voornamelijk bij back-end ontwikkeling en JavaScript.</p>
                 <button class="main__button">Download CV  <i class="fa-solid fa-download"></i></button>
             </div>
             <div class="main__div">

@@ -154,7 +154,8 @@
 
 .card__text{
     width: 75%;
-    font-size: 1.25rem
+    font-size: 1.25rem;
+    font-family: ronnia-condensed, sans-serif;
 }
 
 .card__link{
@@ -188,6 +189,7 @@
 
 .projects__text{
     font-size: 2rem;
+    font-family: ronnia-condensed, sans-serif;
 }
 
 .projects__link{

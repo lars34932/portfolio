@@ -60,7 +60,6 @@ require_once("/var/www/html/source/connect.php");
     } else {
         echo '<p>Project could not be found.</p>';
     }
-    
     ?>
     <?php makeFooter();?>
 </body>
