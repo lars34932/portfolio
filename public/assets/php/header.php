@@ -6,7 +6,7 @@ function makeHeader() {
             <a href="projects.php" class="header__link">projecten</a>
             <a href="about.php" class="header__link">over mij</a>
             <a href="#contact" class="header__link">contact</a>
-            <a href="blog.php" class="header__link">blog</a>
+            <a href="/blog" class="header__link">blog</a>
         </div>
     </header>
     ';
