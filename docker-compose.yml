@@ -1,8 +1,7 @@
 version: '3.9'
 
 services:
-
-  # Php Service
+   # Php Service
   php:
     image: wodby/php:latest
     volumes:
