@@ -41,7 +41,7 @@ function filter(type) {
 
     if (lastClickedButton === clickedButton) {
         allProjects.forEach(project => {
-            project.style.display = "block";
+            project.style.display = "flex";
         });
         clickedButton.style.backgroundImage = "";
         lastClickedButton = null;
@@ -52,7 +52,7 @@ function filter(type) {
 
         const selectedProjects = document.querySelectorAll(`.${projectClass}`);
         selectedProjects.forEach(project => {
-            project.style.display = "block";
+            project.style.display = "flex";
         });
 
         if (lastClickedButton) {
