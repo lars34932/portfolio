@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -115,6 +116,7 @@ body{
     font-size: 2.5rem;
     font-family: ronnia-condensed, sans-serif;
     width: 22rem;
+    text-decoration: none;
 }
 
 .contacts__icon{
@@ -129,6 +131,7 @@ body{
 
 .contacts__text{
     font-size: 2rem;
+    color: white;
 }
 
 .contact__div2{
@@ -147,6 +150,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .footer__copyright{

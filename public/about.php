@@ -21,20 +21,34 @@ require_once("assets/php/footer.php");
         <div class="main__divider">skills</div>
         <section class="skills__lists">
             <ul class="skill__list">
-                <h2 class="list__title">Hard skills</h2>
-                <li class="list__item">test</li>
-                <li class="list__item">test</li>
-                <li class="list__item">test</li>
-                <li class="list__item">test</li>
-                <li class="list__item">test</li>
+                <h2 class="list__title">Hard skills:</h2>
+                <li class="list__item">JavaScript</li>
+                <li class="list__item">PHP</li>
+                <li class="list__item">CSS</li>
+                <li class="list__item">HTML</li>
+                <li class="list__item">MySQL</li>
+                <li class="list__item">MariaDB</li>
+                <li class="list__item">Python</li>
+                <li class="list__item">SCSS</li>
+                <li class="list__item">Laravel</li>
+                <li class="list__item">WordPress</li>
+                <li class="list__item">Trello</li>
+                <li class="list__item">GitHub</li>
             </ul>
             <ul class="skill__list">
-                <h2 class="list__title">Soft skills</h2>
-                <li class="list__item">test</li>
-                <li class="list__item">test</li>
-                <li class="list__item">test</li>
-                <li class="list__item">test</li>
-                <li class="list__item">test</li>
+                <h2 class="list__title">Soft skills:</h2>
+                <li class="list__item">Teamspeler</li>
+                <li class="list__item">Goede communicatie</li>
+                <li class="list__item">Deadline's halen</li>
+                <li class="list__item">Probleemoplossend</li>
+                <li class="list__item">Flexibel</li>
+                <li class="list__item">Samenwerkend</li>
+                <li class="list__item">Leergierig</li>
+                <li class="list__item">Proactief</li>
+                <li class="list__item">Stressbestendig</li>
+                <li class="list__item">Aanpassingsvermogen</li>
+                <li class="list__item">Kritisch denken</li>
+                <li class="list__item">Besluitvaardig</li>
             </ul>
         </section>
     </main>

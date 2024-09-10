@@ -2,21 +2,21 @@
 function makeFooter() {
     echo '
     <footer class="footer">
-        <div class="main__divider">contact</div>
+        <div id="contact" class="main__divider">contact</div>
         <section class="footer__contact">
             <div class="contact__div contact__div1">
-                <div class="contacts">
+                <a href="mailto:34932@ma-web.nl" class="contacts">
                     <i class="fa-regular fa-envelope contacts__icon"></i>
                     <p class="contacts__text">34932@ma-web.nl</p>
-                </div>
-                <div class="contacts">
+                </a>
+                <a href="tel:+31648904707" class="contacts">
                     <i class="fa-solid fa-phone contacts__icon"></i>
-                    <p class="contacts__text">+31 6 00000000</p>
-                </div>
+                    <p class="contacts__text">+31 6 48904707</p>
+                </a>
             </div>
             <div class="contact__div contact__div2">
-                <a class="contact__icon"><i class="fa-brands fa-github"></i></a>
-                <a class="contact__icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/lars34932" class="contact__icon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lars-swagerman-6ba413270/" class="contact__icon"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </section>
         <section class="footer__copyright">

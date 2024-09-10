@@ -43,7 +43,7 @@ require_once("assets/php/project.php");
         <div class="main__divider">Over mij</div>
         <section class="main__about">
             <h2 class="about__title">Ervaring</h2>
-            <p class="about__text">Van 2018 tot 2022 heb ik de MAVO/VMBO-TL afgerond aan het Tabor College Oscar Romero. Momenteel volg ik de opleiding Software Development (MBO4) aan het Mediacollege Amsterdam. Tijdens deze opleiding heb ik ervaring opgedaan met verschillende programmeertalen en technologieën zoals HTML, CSS, JavaScript, PHP, SQL, Python, Laravel en WordPress. Wil je meer weten over mijn vaardigheden en ervaring? Klik dan hieronder voor meer informatie.</p>
+            <p class="about__text">Van 2018 tot 2022 heb ik de MAVO/VMBO-TL afgerond aan het Tabor College Oscar Romero. Momenteel volg ik de opleiding Software Development (MBO4) aan het Mediacollege Amsterdam. Tijdens deze opleiding heb ik ervaring opgedaan met verschillende programmeertalen en technologieën zoals HTML, CSS, JavaScript, PHP, SQL en Python. Wil je meer weten over mijn vaardigheden en ervaring? Klik dan hieronder voor meer informatie.</p>
             <a class="contact__link" href="about.php"><button class="about__button">Lees meer  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
         </section>
     </main>
