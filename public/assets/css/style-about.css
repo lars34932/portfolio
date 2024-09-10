@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 6rem;
+}
+
+.main__title{
+    font-size: 3rem;
+}
+
+.main__text{
+    font-size: 1.5rem;
+}
+
+.skills__lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.skill__list{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list__title{
+    font-size: 3rem;
+}
+
+.list__item{
+    font-size: 2rem;
+    list-style: none;
+}
