@@ -42,21 +42,3 @@ services:
       PMA_PASSWORD: R00tp@ss
     ports:
       - "1088:80"
-
-  # wordpress
-  wordpress:
-    image: wordpress:latest
-    container_name: prog_m5_wordpress
-    environment:
-      WORDPRESS_DB_HOST: '${SERVERNAME}'
-      WORDPRESS_DB_NAME: '${DBNAME}'
-      WORDPRESS_DB_USER: '${USERNAME}'
-      WORDPRESS_DB_PASSWORD: '${PASSWORD}'
-    ports:
-      - "9999:80"
-    volumes:
-      - './themes:/var/www/html/wp-content/themes'
-      - './plugins:/var/www/html/wp-content/plugins'
-      - './uploads:/var/www/html/wp-content/uploads'
-    depends_on:
-      - mariadb

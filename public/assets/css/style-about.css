@@ -12,11 +12,12 @@
 
 .main__text{
     font-size: 1.5rem;
+    width: 50%;
 }
 
 .skills__lists{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     width: 100%;
 }

@@ -20,10 +20,10 @@ require_once("assets/php/project.php");
         <section class="main__intro">
             <div class="main__div main__div1">
                 <div>
-                <h1 class="main__title">Backend developer +</h1>
+                <h1 class="main__title">Lars Swagerman</h1>
                 <h1 class="main__title">Web developer</h1>
                 </div>
-                <p class="main__text">Hallo, mijn naam is Lars Swagerman en ik ben <?php echo (new DateTime('2006-08-08'))->diff(new DateTime())->y; ?> jaar oud. Dit is mijn stageportfolio met veel van mijn projecten die ik heb gebruikt om te leren. Alle projecten hier zijn gericht op het opdoen van nieuwe vaardigheden en kennis dus er kunnen fouten tussen zitten.</p>
+                <p class="main__text">Hallo, mijn naam is Lars Swagerman en ik ben <?php echo (new DateTime('2006-08-08'))->diff(new DateTime())->y; ?> jaar oud. Ik ben op zoek naar een stage in web development, met een voorkeur voor backend development. Op dit portfolio vind je enkele van mijn projecten. Deze projecten heb ik ontwikkeld om te leren en te testen. Hierdoor kunnen sommige van de projecten fouten bevatten.</p>
                 <button class="main__button">Download CV  <i class="fa-solid fa-download"></i></button>
             </div>
             <div class="main__div">
@@ -42,8 +42,8 @@ require_once("assets/php/project.php");
         </section>
         <div class="main__divider">Over mij</div>
         <section class="main__about">
-            <h2 class="about__title">Ervaring</h2>
-            <p class="about__text">Van 2018 tot 2022 heb ik de MAVO/VMBO-TL afgerond aan het Tabor College Oscar Romero. Momenteel volg ik de opleiding Software Development (MBO4) aan het Mediacollege Amsterdam. Tijdens deze opleiding heb ik ervaring opgedaan met verschillende programmeertalen en technologieën zoals HTML, CSS, JavaScript, PHP, SQL en Python. Wil je meer weten over mijn vaardigheden en ervaring? Klik dan hieronder voor meer informatie.</p>
+            <h2 class="about__title">Voorkeuren</h2>
+            <p class="about__text">Zoals ik al heb vernoemd ben ik voornamlijk opzoek naar een stage in backend development. Ik vind het leuk om problemen op te lossen, waardoor ik liever backend doe als frontend. Ik vind het fijn om in een team te werken, en ik leer snel nieuwe talen en technieken. Tijdens mijn stage wil ik mijn vaardigheden op het gebied van backend development verder ontwikkelen. Ik sta altijd open om nieuwe dingen te leren en kijk uit naar de kans om mijn bijdrage te leveren aan een team. Wil je meer te weten komen over mijn ervaringen en vaardigheden? Klik dan op de knop hieronder.</p>
             <a class="contact__link" href="about.php"><button class="about__button">Lees meer  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
         </section>
     </main>
