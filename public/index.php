@@ -42,7 +42,7 @@ require_once("assets/php/project.php");
         </section>
         <div class="main__divider">Over mij</div>
         <section class="main__about">
-            <h2 class="about__title">Voorkeuren</h2>
+            <h2 class="about__title">Stage voorkeuren</h2>
             <p class="about__text">Zoals ik al heb vernoemd ben ik voornamlijk opzoek naar een stage in backend development. Ik vind het leuk om problemen op te lossen, waardoor ik liever backend doe als frontend. Ik vind het fijn om in een team te werken, en ik leer snel nieuwe talen en technieken. Tijdens mijn stage wil ik mijn vaardigheden op het gebied van backend development verder ontwikkelen. Ik sta altijd open om nieuwe dingen te leren en kijk uit naar de kans om mijn bijdrage te leveren aan een team. Wil je meer te weten komen over mijn ervaringen en vaardigheden? Klik dan op de knop hieronder.</p>
             <a class="contact__link" href="about.php"><button class="about__button">Lees meer  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
         </section>

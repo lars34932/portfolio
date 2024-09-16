@@ -72,6 +72,11 @@
     opacity: 0.6;
 }
 
+.links__div{
+    display: flex;
+    gap: 2rem;
+}
+
 .live__button{
     width: 15rem;
     height: 4rem;

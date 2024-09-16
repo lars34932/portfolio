@@ -30,6 +30,7 @@ require_once("assets/php/footer.php");
                 <li class="list__item">CSS</li>
                 <li class="list__item">Laravel</li>
                 <li class="list__item">WordPress</li>
+                <li class="list__item">React</li>
                 <li class="list__item">Arduino</li>
                 <li class="list__item">HTML</li>
                 <li class="list__item">SCSS</li>
@@ -50,6 +51,42 @@ require_once("assets/php/footer.php");
                 <li class="list__item">Kritisch denken</li>
             </ul>
         </section>
+        <ul class="skills__list">
+            <li class="skills__item">
+                <i class="fa-brands fa-js"></i>
+                <p class="skill__procent">%70</p>
+            </li>
+
+            <li class="skills__item">
+                <i class="fa-brands fa-php"></i>
+                <p class="skill__procent">%75</p>
+            </li>
+
+            <li class="skills__item">
+                <i class="fa-solid fa-database"></i>
+                <p class="skill__procent">%60</p>
+            </li>
+
+            <li class="skills__item">
+                <i class="fa-brands fa-python"></i>
+                <p class="skill__procent">%40</p>
+            </li>
+
+            <li class="skills__item">
+                <i class="fa-brands fa-laravel"></i>
+                <p class="skill__procent">%25</p>
+            </li>
+
+            <li class="skills__item">
+                <i class="fa-brands fa-wordpress"></i>
+                <p class="skill__procent">%40</p>
+            </li>
+
+            <li class="skills__item">
+                <i class="fa-brands fa-react"></i>
+                <p class="skill__procent">%1</p>
+            </li>
+        </ul>
     </main>
     <?php makeFooter()?>
 </body>
