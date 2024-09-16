@@ -53,7 +53,7 @@ require_once("/var/www/html/source/connect.php");
                </ul>
            </section>
            <div class="links__div">
-                <button onclick="location.href = ' . $project['buttonLink'] . '" class="live__button">Live preview<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+                <button onclick="location.href = ' . $project['liveLink'] . '" class="live__button">Live preview<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
                 <a href="' . $project['gitLink'] . '" class="contact__icon"><i class="fa-brands fa-github"></i></a>
            </div>
            <h2 class="about__title">beschrijving</h2>
