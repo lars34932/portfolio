@@ -64,7 +64,7 @@ require_once("assets/php/footer.php");
 
             <li class="skills__item">
                 <i class="fa-solid fa-database"></i>
-                <p class="skill__procent">60%</p>
+                <p class="skill__procent">65%</p>
             </li>
 
             <li class="skills__item">
@@ -74,17 +74,17 @@ require_once("assets/php/footer.php");
 
             <li class="skills__item">
                 <i class="fa-brands fa-laravel"></i>
-                <p class="skill__procent">25%</p>
+                <p class="skill__procent">15%</p>
             </li>
 
             <li class="skills__item">
                 <i class="fa-brands fa-wordpress"></i>
-                <p class="skill__procent">40%</p>
+                <p class="skill__procent">30%</p>
             </li>
 
             <li class="skills__item">
                 <i class="fa-brands fa-react"></i>
-                <p class="skill__procent">1%</p>
+                <p class="skill__procent">10%</p>
             </li>
         </ul>
     </main>

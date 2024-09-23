@@ -47,13 +47,13 @@ require_once("/var/www/html/source/connect.php");
                        <p class="item__text">' . $project['date'] . '</p>
                    </li>
                    <li class="list__item">
-                       <p class="item__title">design</p>
-                       <p class="item__text">' . $project['designText'] . '</p>
+                       <p class="item__title">teams</p>
+                       <p class="item__text">' . $project['teamsText'] . '</p>
                    </li>
                </ul>
            </section>
            <div class="links__div">
-                <button onclick="location.href = ' . $project['liveLink'] . '" class="live__button">Live preview<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button>
+                <a href="' . $project['liveLink'] . '"><button class="live__button">Live preview<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
                 <a href="' . $project['gitLink'] . '" class="contact__icon"><i class="fa-brands fa-github"></i></a>
            </div>
            <h2 class="about__title">beschrijving</h2>

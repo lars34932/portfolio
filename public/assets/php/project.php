@@ -38,10 +38,8 @@ function makeCards() {
 
         echo '  </ul>
                 </div>
-                <div class="card__div">
-                    <img class="card__img" src="' . $project['image'] . '" alt="">
-                    <p class="card__text">' . $project['smallText'] . '</p>
-                </div>
+                <img class="card__img" src="' . $project['image'] . '" alt="">
+                <p class="card__text">' . $project['smallText'] . '</p>
                 <a class="card__link" href="projectPage.php?name=' . $project['name'] . '"><button class="project__button">Project 1 <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
             </li>';
     }
