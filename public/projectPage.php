@@ -31,7 +31,7 @@ require_once("/var/www/html/source/connect.php");
            <section class="info__section">
                <div class="info__div">
                    <h1 class="info__title">' . $project['name'] . '</h1>
-                   <p class="info__text">' . $project['infoText'] . '</p>
+                   <p class="info__text">' . $project['bigText'] . '</p>
                </div>
                <ul class="info__list">
                    <li class="list__item">
@@ -53,11 +53,11 @@ require_once("/var/www/html/source/connect.php");
                </ul>
            </section>
            <div class="links__div">
-                <a href="' . $project['liveLink'] . '"><button class="live__button">Live preview<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
+                <a class="button__link" href="' . $project['liveLink'] . '"><button class="live__button">Live preview<i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
                 <a href="' . $project['gitLink'] . '" class="contact__icon"><i class="fa-brands fa-github"></i></a>
            </div>
            <h2 class="about__title">beschrijving</h2>
-           <p class="about__text">' . $project['bigText'] . '</p>
+           <p class="about__text">' . $project['infoText'] . '</p>
        </main>';
     } else {
         echo '<p>Project could not be found.</p>';

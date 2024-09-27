@@ -40,7 +40,7 @@ function makeCards() {
                 </div>
                 <img class="card__img" src="' . $project['image'] . '" alt="">
                 <p class="card__text">' . $project['smallText'] . '</p>
-                <a class="card__link" href="projectPage.php?name=' . $project['name'] . '"><button class="project__button">Project 1 <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
+                <a class="card__link" href="projectPage.php?name=' . $project['name'] . '"><button class="project__button">Lees meer <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
             </li>';
     }
 }

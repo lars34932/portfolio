@@ -45,7 +45,6 @@
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
     gap: 1rem;
     justify-content: space-between;
 }
@@ -54,7 +53,6 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 48%;
     font-size: 1.7rem;
     gap: 0.5rem;
@@ -75,6 +73,10 @@
 .links__div{
     display: flex;
     gap: 2rem;
+}
+
+.button__link{
+    text-decoration: none;
 }
 
 .live__button{
