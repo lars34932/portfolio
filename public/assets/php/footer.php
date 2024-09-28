@@ -5,9 +5,9 @@ function makeFooter() {
         <div id="contact" class="main__divider">contact</div>
         <section class="footer__contact">
             <div class="contact__div contact__div1">
-                <a href="mailto:34932@ma-web.nl" class="contacts">
+                <a href="mailto:larsswagerman0808@gmail.com" class="contacts">
                     <i class="fa-regular fa-envelope contacts__icon"></i>
-                    <p class="contacts__text">34932@ma-web.nl</p>
+                    <p class="contacts__text">larsswagerman0808@gmail.com</p>
                 </a>
                 <a href="tel:+31648904707" class="contacts">
                     <i class="fa-solid fa-phone contacts__icon"></i>

@@ -172,3 +172,43 @@
 .filter__button:hover{
     cursor: pointer;
 }
+
+@media screen and (max-width: 1512px) {
+    .main__projects{
+        align-items: center;
+    }
+    .filter{
+        width: 55rem;
+    }
+    .projects{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .filter{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .main__projects{
+        margin: 0;
+        width: 100%;
+    }
+
+    .projects{
+        width: 90%;
+    }
+
+    .projects__card{
+        height: 45rem;
+    }
+
+    .title__div{
+        flex-direction: column;
+    }
+
+    .card__text{
+        width: auto;
+    }
+}

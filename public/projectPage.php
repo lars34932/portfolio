@@ -1,6 +1,7 @@
 <?php
 require_once("assets/php/header.php");
 require_once("assets/php/footer.php");
+require_once("assets/php/menu.php");
 require_once("/var/www/html/source/connect.php");
 ?>
 <!DOCTYPE html>
@@ -12,7 +13,8 @@ require_once("/var/www/html/source/connect.php");
     <link rel="stylesheet" href="https://use.typekit.net/vmz6jnb.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style-page.css">
-    <title>Lars Swagerman</title>
+    <script src="assets/js/menu.js" defer></script>
+    <title>Project</title>
 </head>
 <body>
     <?php makeHeader();?>
@@ -64,5 +66,6 @@ require_once("/var/www/html/source/connect.php");
     }
     ?>
     <?php makeFooter();?>
+    <?php makeMenu()?>
 </body>
 </html>
