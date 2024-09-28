@@ -112,18 +112,32 @@
 }
 
 .card__tags{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     gap: 1rem;
 }
 
-.tags__tag{
-    list-style: none;
+.tags__div{
     border: 1px solid black;
     border-radius: 1rem;
     min-width: 3rem;
-    justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 2rem;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    
+}
+
+.tags__tag{
+    list-style: none;
 }
 
 .php{
