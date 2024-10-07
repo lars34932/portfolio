@@ -27,7 +27,7 @@ require_once("/var/www/html/source/connect.php");
        $project = $stmt->fetch(PDO::FETCH_ASSOC);
        echo '
        <main class="main">
-           <img class="main__img" src="' . $project['image'] .'" alt="">
+           <img class="main__img" src="assets/img/projects/' . $project['image'] .'" alt="">
            <section class="info__section">
                <div class="info__div">
                    <h1 class="info__title">' . $project['name'] . '</h1>
