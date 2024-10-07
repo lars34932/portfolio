@@ -9,6 +9,10 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    background-image: url("/assets/img/verloop.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 body{
@@ -55,6 +59,7 @@ body{
     font-weight: 400;
     text-transform: uppercase;
     position: relative;
+    white-space: nowrap;
 }
 
 .header__link::after {
@@ -73,6 +78,10 @@ body{
 .header__link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.burger__menu{
+    display: none;
 }
 
 .footer{
@@ -172,4 +181,89 @@ body{
 .footer__text{
     font-size: 1.5rem;
     font-family: ronnia-condensed, sans-serif;
+}
+
+.menu{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/img/verloop.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+@media screen and (max-width: 1050px) {
+    .header, .footer__contact {
+        width: 90%;
+        margin: 5rem auto 0;
+    }
+
+    .contact__div1{
+        align-items: start;
+    }
+
+    .contact__div2{
+        justify-content: end;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .header__div{
+        width: 100%;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .header{
+        gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .header__logo{
+        display: block;
+    }
+
+    .header{
+        justify-content: space-between;
+    }
+
+    .header__div{
+        display: none;
+    }
+
+    .burger__menu{
+        display: block;
+        font-size: 5rem;
+    }
+
+    .burger__menu:hover{
+        cursor: pointer;
+    }
+
+    .footer__contact{
+        width: 90%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__contact{
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .contact__div2{
+        justify-content: start;
+    }
+
+    .contacts{
+        gap: 0.5rem;
+    }
 }

@@ -32,7 +32,10 @@ function makeCards() {
                     <ul class="card__tags">';
         foreach ($tags as $key => $class) {
             if (!empty($project[$key])) {
-                echo '<li class="tags__tag ' . $class . '">' . $class . '</li>';
+                echo '
+                <div class="tags__div ' . $class . '">
+                    <li class="tags__tag">' . $class . '</li>
+                </div>';
             }
         }
 

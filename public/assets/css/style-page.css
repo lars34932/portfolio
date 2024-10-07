@@ -39,6 +39,7 @@
 
 .info__title{
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .info__list {
@@ -60,14 +61,13 @@
 
 .item__title{
     text-transform: uppercase;
+    white-space: nowrap;
+    opacity: 0.6;
 }
 
 .item__text{
     font-family: ronnia-condensed, sans-serif;
-}
-
-.item__title{
-    opacity: 0.6;
+    white-space: nowrap;
 }
 
 .links__div{
@@ -107,4 +107,22 @@
 .about__text{
     font-size: 1.7rem;
     font-family: ronnia-condensed, sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    .main{
+        padding: 0 5%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .info__section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .info__div, .info__list, .info__text{
+        width: 100%;
+    }
 }

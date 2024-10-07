@@ -14,11 +14,20 @@
 
 .main__div{
     width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.main__img{
+    width: auto;
+    max-height: 40vh;
+    object-fit: contain;
 }
 
 .main__div1{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 4rem;
     padding: 0 15% 0 0;
 }
@@ -26,6 +35,7 @@
 .main__title{
     font-size: 3rem;
     font-weight: 400;
+    white-space: nowrap;
 }
 
 .main__text{
@@ -43,6 +53,7 @@
     font-size: 1.5rem;
     font-family: ronnia-condensed, sans-serif;
     font-weight: 300;
+    padding: 1rem;
     
 }
 
@@ -101,18 +112,32 @@
 }
 
 .card__tags{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     gap: 1rem;
 }
 
-.tags__tag{
-    list-style: none;
+.tags__div{
     border: 1px solid black;
-    padding: 0.5rem;
     border-radius: 1rem;
     min-width: 3rem;
-    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 2rem;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    
+}
+
+.tags__tag{
+    list-style: none;
 }
 
 .php{
@@ -271,4 +296,80 @@
 .about__button:hover{
     cursor: pointer;
     background: linear-gradient(90deg, rgba(120,162,45,1) 25%, rgba(30,120,61,1) 100%);
+}
+
+@media screen and (max-width: 1512px) {
+    .main__projects{
+        align-items: center;
+    }
+    
+    .projects{
+        justify-content: center;
+    }
+
+    .projects__div{
+        width: 55rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .main__intro{
+        margin: 0 5rem;
+        width: calc(100% - 10rem);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main__intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        margin: 0;
+        width: 90%;
+    }
+
+    .main__img{
+        height: auto;
+        width: 100%;
+        max-height: none;
+    }
+
+    .main__div{
+        width: 100%;
+    }
+
+    .main__div1{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .projects__div{
+        width: auto;
+    }
+
+    .main__projects{
+        width: 90%;
+        margin: 0;
+        align-items: normal;
+    }
+
+    .main__about{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projects__card{
+        height: 45rem;
+    }
+
+    .title__div{
+        flex-direction: column;
+    }
+
+    .card__text{
+        width: auto;
+    }
 }

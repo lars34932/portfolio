@@ -2,6 +2,7 @@
 require_once("assets/php/header.php");
 require_once("assets/php/footer.php");
 require_once("assets/php/project.php");
+require_once("assets/php/menu.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +14,8 @@ require_once("assets/php/project.php");
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style-project.css">
     <script src="assets/js/filter.js" defer></script>
-    <title>Lars Swagerman</title>
+    <script src="assets/js/menu.js" defer></script>
+    <title>Projecten</title>
 </head>
 <body>
     <?php makeHeader()?>
@@ -33,5 +35,6 @@ require_once("assets/php/project.php");
         </ul>
     </main>
     <?php makeFooter()?>
+    <?php makeMenu()?>
 </body>
 </html>
