@@ -26,16 +26,16 @@ require_once("assets/php/menu.php");
                 <h1 class="main__title">Web developer</h1>
                 </div>
                 <p class="main__text">Hallo, mijn naam is Lars Swagerman en ik ben <?php echo (new DateTime('2006-08-08'))->diff(new DateTime())->y; ?> jaar oud. Ik ben op zoek naar een stage in web development, met een voorkeur voor backend development. Op dit portfolio vind je enkele van mijn projecten. Deze projecten heb ik ontwikkeld om te leren en te testen. Hierdoor kunnen sommige van de projecten fouten bevatten.</p>
-                <button class="main__button">Download CV  <i class="fa-solid fa-download"></i></button>
+                <button onclick="window.location.href = 'assets/cv.pdf';" class="main__button">Download CV  <i class="fa-solid fa-download"></i></button>
             </div>
             <div class="main__div">
-                <img src="assets/img/placeholder.jpeg" alt="" class="main__img">
+                <img src="assets/img/photo.jpg" alt="" class="main__img">
             </div>
         </section>
         <div class="main__divider">Projecten</div>
         <section class="main__projects">
             <ul class="projects">
-                <?php makeCards()?>
+                <?php makeCardsIndex()?>
             </ul>
             <div class="projects__div">
                 <p class="projects__text">Bekijk hier meer projecten:</p>
