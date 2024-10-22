@@ -50,7 +50,7 @@ function makeCards() {
 
 function makeCardsIndex() {
     $pdo = db_connect();
-    $stmt = $pdo->prepare("SELECT * FROM Projects WHERE name IN ('Sdgs', 'Muse', 'Duurzaam huis', 'Museum online')");
+    $stmt = $pdo->prepare("SELECT * FROM Projects LIMIT 4;");
     $stmt->execute();
     $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
 

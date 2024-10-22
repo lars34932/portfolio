@@ -5,13 +5,13 @@ function makeFooter() {
         <div id="contact" class="main__divider">contact</div>
         <section class="footer__contact">
             <div class="contact__div contact__div1">
-                <a href="mailto:larsswagerman0808@gmail.com" class="contacts">
+                <a href="mailto:contact@larsswagerman.nl" class="contacts">
                     <i class="fa-regular fa-envelope contacts__icon"></i>
-                    <p class="contacts__text">larsswagerman0808@gmail.com</p>
+                    <p class="contacts__text">contact@larsswagerman.nl</p>
                 </a>
-                <a href="tel:+31648904707" class="contacts">
+                <a class="contacts">
                     <i class="fa-solid fa-phone contacts__icon"></i>
-                    <p class="contacts__text">+31 6 48904707</p>
+                    <p class="contacts__text">+31 6 ********</p>
                 </a>
             </div>
             <div class="contact__div contact__div2">
