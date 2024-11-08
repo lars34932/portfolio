@@ -1,7 +1,8 @@
 <?php
 require_once("/var/www/html/source/connect.php");
 
-function makeCards() {
+function makeCards()
+{
     $pdo = db_connect();
     $stmt = $pdo->prepare('SELECT * FROM Projects');
     $stmt->execute();
@@ -48,7 +49,8 @@ function makeCards() {
     }
 }
 
-function makeCardsIndex() {
+function makeCardsIndex()
+{
     $pdo = db_connect();
     $stmt = $pdo->prepare("SELECT * FROM Projects LIMIT 4;");
     $stmt->execute();

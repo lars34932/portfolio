@@ -80,10 +80,6 @@ body{
     transform-origin: bottom left;
 }
 
-.header__blog{
-    display: none;
-}
-
 .burger__menu{
     display: none;
 }

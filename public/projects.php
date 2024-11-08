@@ -5,7 +5,7 @@ require_once("assets/php/project.php");
 require_once("assets/php/menu.php");
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,7 @@ require_once("assets/php/menu.php");
             <button id="cssButton" class="filter__button" onclick="filter('css')">css</button>
             <button id="jsButton" class="filter__button" onclick="filter('js')">js</button>
             <button id="sqlButton" class="filter__button" onclick="filter('sql')">sql</button>
-            <button id="pythonButton" class="filter__button" onclick="filter('python')">python</button>
+            <!-- <button id="pythonButton" class="filter__button" onclick="filter('python')">python</button> -->
             <button id="wordpressButton" class="filter__button" onclick="filter('wordpress')">wordpress</button>
         </ul>
         <ul class="projects">

@@ -39,4 +39,8 @@ $RECYCLE.BIN/
 .env
 _sources
 
-teksten.txt
+register.php
+blog.php
+comments.php
+comment.js
+style-blog.css
