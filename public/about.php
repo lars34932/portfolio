@@ -19,7 +19,7 @@ require_once("assets/php/menu.php");
     <?php makeHeader()?>
     <main class="main">
         <h1 class="main__title">Ervaring</h1>
-        <p class="main__text">Van 2018 tot 2022 heb ik de MAVO/VMBO-TL afgerond aan het Tabor College Oscar Romero. Momenteel volg ik de opleiding Software Development (MBO4) aan het Mediacollege Amsterdam. Tijdens deze opleiding heb ik brede ervaring opgedaan met verschillende programmeertalen en technologieën, waaronder JavaScript, PHP, SQL, Laravel, WordPress en ook dingen zoals arduino. Daarnaast heb ik door een persoonlijk project ook gebruikt gemaakt met Node.js. Hieronder vind je een overzicht van mijn skills.</p>
+        <p class="main__text">Van 2018 tot 2022 heb ik de MAVO/VMBO-TL afgerond aan het Tabor College Oscar Romero. Momenteel volg ik de opleiding Software Development (MBO4) aan het Mediacollege Amsterdam. Tijdens deze opleiding heb ik brede ervaring opgedaan met verschillende programmeertalen en technologieën, waaronder JavaScript, PHP, SQL, Laravel, WordPress en ook dingen zoals arduino. Ik heb in mijn 3e jaar meegedaan aan de Software Developer Skills Heroes wedstrijd en gewonnen op mijn school. Hieronder vind je een uitgebreider overzicht van mijn skills.</p>
         <div class="main__divider">skills</div>
         <ul class="skills__list">
             <li class="skills__item">

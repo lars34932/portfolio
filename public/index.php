@@ -25,7 +25,7 @@ require_once("assets/php/menu.php");
                 <h1 class="main__title">Lars Swagerman</h1>
                 <h1 class="main__title">Web developer</h1>
                 </div>
-                <p class="main__text">Hallo, mijn naam is Lars Swagerman en ik ben <?php echo (new DateTime('2006-08-08'))->diff(new DateTime())->y; ?> jaar oud. Ik ben op zoek naar een stage in web development, met een voorkeur voor backend development. Op dit portfolio vind je enkele van mijn projecten. Deze projecten heb ik ontwikkeld om te leren en te testen. Hierdoor kunnen sommige van de projecten fouten bevatten.</p>
+                <p class="main__text">Hallo, mijn naam is Lars Swagerman en ik ben <?php echo (new DateTime('2006-08-08'))->diff(new DateTime())->y; ?> jaar oud. Ik ben op zoek naar een stage in software development, met een voorkeur voor backend development. Op dit portfolio vind je enkele van mijn projecten. Deze projecten heb ik ontwikkeld om te leren. Hierdoor kunnen sommige van de projecten wat kleine fouten bevatten.</p>
                 <button onclick="window.location.href = 'assets/cv.pdf';" class="main__button">Download CV  <i class="fa-solid fa-download"></i></button>
             </div>
             <div class="main__div">
@@ -45,7 +45,7 @@ require_once("assets/php/menu.php");
         <div class="main__divider">Over mij</div>
         <section class="main__about">
             <h2 class="about__title">Stage voorkeuren</h2>
-            <p class="about__text">Zoals ik al heb vernoemd ben ik voornamlijk opzoek naar een stage in backend development. Ik vind het leuk om problemen op te lossen, waardoor ik liever backend doe als frontend. Ik vind het fijn om in een team te werken, en ik leer snel nieuwe talen en technieken. Tijdens mijn stage wil ik mijn vaardigheden op het gebied van backend development verder ontwikkelen. Ik sta altijd open om nieuwe dingen te leren en kijk uit naar de kans om mijn bijdrage te leveren aan een team. Wil je meer te weten komen over mijn ervaringen en vaardigheden? Klik dan op de knop hieronder.</p>
+            <p class="about__text">Zoals ik al heb vernoemd ben ik voornamlijk opzoek naar een stage in backend development. Ik vind het leuk om problemen op te lossen, waardoor ik liever backend doe als frontend. Ik vind het fijn om in een team te werken, en ik leer snel nieuwe programmeertalen en technieken. Tijdens mijn stage wil ik mijn vaardigheden op het gebied van backend development verder ontwikkelen. Ik sta altijd open om nieuwe dingen te leren en kijk uit naar de kans om mijn bijdrage te leveren aan een leuk team. Wil je meer te weten komen over mijn ervaringen en vaardigheden? Klik dan op de knop hieronder.</p>
             <a class="contact__link" href="about.php"><button class="about__button">Lees meer  <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i></button></a>
         </section>
     </main>
